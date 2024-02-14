@@ -1,0 +1,11 @@
+#Escreva um algoritmo que calcule a sua média de notas em determinada disciplina
+#Vamos assumir que a média final é dada pela média aritmética de cinco notas digitadas
+#ITERADOR/VARIÁVEL DE CONTROLE
+#VARIÁVEL SOMADORA X ACUMULADORA(SOMAS...)
+soma = 0
+cont = 1
+while (cont <= 5):
+    x = float(input('Digite a {}ª nota:' . format(cont)))
+    soma += x #equivalente: soma = soma + x
+    cont += 1 #equivalente: cont = cont +1
+print ('Somatório: {}'.format(soma))
